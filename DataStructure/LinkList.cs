@@ -25,19 +25,5 @@ namespace DataStructure
             }
             Console.WriteLine("{0} Inserted into Linked List", node.data);
         }
-        internal void Display()
-        {
-            Node temp = this.head;
-            if (temp == null)
-            {
-                Console.WriteLine("Linked List is Empty");
-                return;
-            }
-            while (temp != null)
-            {
-                Console.WriteLine(temp.data + " ");
-                temp = temp.next;
-            }
-        }
     }
 }
