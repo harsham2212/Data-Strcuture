@@ -44,7 +44,7 @@ namespace DataStructure
         {
             if (top == null)
             {
-                Console.WriteLine("stack is in underflow condition,");
+                Console.WriteLine("stack is in underflow condition, Deletion is not possible");
                 return;
             }
             Console.WriteLine("{0} is deleted from stack", top.data);
