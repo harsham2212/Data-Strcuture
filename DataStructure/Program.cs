@@ -4,6 +4,8 @@ namespace DataStructure
 {
     class Program
     {
+        private static int position;
+
         static void Main(string[] args)
         {
                 Console.WriteLine("Welcome to Linked List Problems!");
@@ -11,8 +13,9 @@ namespace DataStructure
                 ln.Add(56);
                 ln.Add(30);
                 ln.Add(70);
-                int search = ln.Search(30);
-                Console.WriteLine(search);
+                position++;
+                ln.InsertAtParticularPosition(position, 40);
+                ln.Display(); ;
         }
     }
 }

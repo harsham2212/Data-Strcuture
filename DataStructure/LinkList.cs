@@ -93,6 +93,7 @@ namespace DataStructure
             this.head = this.head.next;
             return this.head;
         }
+
         internal Node RemoveLastNode()
         {
             if (head == null)
