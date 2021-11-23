@@ -50,6 +50,7 @@ namespace DataStructure
             Console.WriteLine("{0} is deleted from stack", top.data);
             top = top.next;
         }
+
         internal void Peek()
         {
             if (top == null)
