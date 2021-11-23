@@ -9,13 +9,12 @@ namespace DataStructure
         static void Main(string[] args)
         {
                 Console.WriteLine("Welcome to Linked List Problems!");
-                LinkList ln = new LinkList();
-                ln.Add(56);
-                ln.Add(30);
-                ln.Add(70);
-                ln.Display();
-                int pos = ln.Search(40);
-                ln.DeleteNodeAtParticularPosition(pos);
+                Queue que = new Queue();
+                que.Enqueue(70);
+                que.Enqueue(30);
+                que.Enqueue(56);
+                que.Dequeue();
+                que.Display();
         }
     }
 }

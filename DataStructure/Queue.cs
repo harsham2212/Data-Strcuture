@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataStructure
 {
-    class Queue
+    public class Queue
     {
         Node front;
         Node rear;
@@ -49,8 +49,7 @@ namespace DataStructure
                 return;
             }
             Node temp = this.front;
-            this.front = this.front.next;
-            // If front becomes null, then change rear also as null  
+            this.front = this.front.next; 
             if (this.front == null)
             {
                 this.rear = null;

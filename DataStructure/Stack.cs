@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataStructure
 {
-    class Stack
+    public class Stack
     {
         Node top;
         public Stack()
@@ -44,7 +44,7 @@ namespace DataStructure
         {
             if (top == null)
             {
-                Console.WriteLine("stack is in underflow condition, Deletion is not possible");
+                Console.WriteLine("stack is in underflow condition");
                 return;
             }
             Console.WriteLine("{0} is deleted from stack", top.data);
